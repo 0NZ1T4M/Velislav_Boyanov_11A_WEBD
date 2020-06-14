@@ -6,5 +6,5 @@ Guitar Store for custom and vintage models. The online store tells you
 about the team behind the business and the idea behind it.
 Four pages of pure visual pleasure(not really).
 
-![alt text](bruh)
+![alt text](https://github.com/velisav-boyanov/Velislav_Boyanov_11A_WEBD/blob/develop/readme.png)
 
