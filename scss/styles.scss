@@ -10,6 +10,24 @@ p{
 	font-size: 35px;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: firebrick;
+	padding: 10px;
+  }
+  .grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-size: 45px;
+	text-align: center;
+  }
+
 .center{
 	display: flex;
 	flex-direction: column;
@@ -37,7 +55,7 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 50px;
 }
   
  
@@ -56,7 +74,7 @@ body {
 }
   
 .dropdown .dropbtn {
-	font-size: 17px;
+	font-size: 50px;
 	border: none;
 	outline: none;
 	color: white;
