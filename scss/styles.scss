@@ -66,7 +66,7 @@ body {
 	margin: 0;
 }
   
-.dropdownContent {
+.dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
@@ -75,7 +75,7 @@ body {
 	z-index: 1;
 }
   
-.dropdownContent a {
+.dropdown-content a {
 	float: none;
 	color: black;
 	padding: 12px 16px;
@@ -89,12 +89,12 @@ body {
 	color: white;
 }
   
-.dropdownContent a:hover {
+.dropdown-content a:hover {
 	background-color: #333;
 	color: firebrick;
 }
   
-.dropdown:hover .dropdownContent {
+.dropdown:hover .dropdown-content {
 	display: block;
 }
   
