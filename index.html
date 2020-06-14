@@ -6,38 +6,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bazingha Customs</title>
 </head>
-<body>
+    <body>
 
-<div class="topNav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">Store</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-</div>
+        <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <div class="dropdown">
+                <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdownContent">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+                </div>
+                <a href="#about">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div> 
 
-<div style="padding-left:16px">
-    <h2>What we do.</h2>
-    <p>Since 2017, we've been specializing in custom shop electric guitars (build to order), custom basses, fanned fret guitars, baritone guitars, 7-string guitars, 8-string guitars, 9-string guitars, 10-string guitars, left handed guitars, and professional luthier services.</p>
-</div>
+        <div style="padding-left:16px">
+            <h2>What we do.</h2>
+            <p>Since 2017, we've been specializing in custom shop electric guitars (build to order), custom basses, fanned fret guitars, baritone guitars, 7-string guitars, 8-string guitars, 9-string guitars, 10-string guitars, left handed guitars, and professional luthier services.</p>
+        </div>
 
-<img src="pictures/home_page.jpeg" class="center">
+        <img src="pictures/home_page.jpeg" class="center">
 
-<p>We are a guitar company through and through. In a typical month, we’ll be busy sketching guitar designs, sourcing raw woods and materials, creating all sorts of sawdust by building guitars from scratch, spraying guitars in our paint booth, and fine-tuning, testing, and playing our guitars prior to shipping them out to customers all around the world. We've made it fun, efficient and affordable for folks to design, purchase and play their very own pro-grade custom guitar.</p>
+        <p>We are a guitar company through and through. In a typical month, we’ll be busy sketching guitar designs, sourcing raw woods and materials, creating all sorts of sawdust by building guitars from scratch, spraying guitars in our paint booth, and fine-tuning, testing, and playing our guitars prior to shipping them out to customers all around the world. We've made it fun, efficient and affordable for folks to design, purchase and play their very own pro-grade custom guitar.</p>
 
-<img src="pictures/home_page2.jpeg" class="center">
+        <img src="pictures/home_page2.jpeg" class="center">
 
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topNav") {
-      x.className += " responsive";
-        } else {
-      x.className = "topNav";
-    }
-}
-</script>
-</body>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+                } else {
+            x.className = "topnav";
+            }
+        }
+        </script>
+    </body>
 </html>
