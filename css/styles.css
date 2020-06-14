@@ -61,6 +61,13 @@ body {
   text-decoration: none;
   font-size: 50px; }
 
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: gray;
+  font-size: 40px;
+  margin-top: 20px; }
+
 .active {
   background-color: firebrick;
   color: white; }
