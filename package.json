@@ -1,0 +1,24 @@
+{
+  "name": "webd-project-vboyanov",
+  "version": "1.0.0",
+  "description": "WEBD project for the WEBD class in ELSYS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velisav-boyanov/Velislav_Boyanov_11A_WEBD.git"
+  },
+  "author": "Velislav Boyanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/velisav-boyanov/Velislav_Boyanov_11A_WEBD/issues"
+  },
+  "homepage": "https://github.com/velisav-boyanov/Velislav_Boyanov_11A_WEBD#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
